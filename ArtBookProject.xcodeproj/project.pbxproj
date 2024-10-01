@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6416EC12CACA76E001E8FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */; };
+		F6416EC32CACA76E001E8FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */; };
+		F6416EC52CACA76E001E8FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC42CACA76E001E8FC1 /* ViewController.swift */; };
+		F6416EC82CACA76E001E8FC1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6416EC72CACA76E001E8FC1 /* Base */; };
+		F6416ECB2CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC92CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld */; };
+		F6416ECD2CACA770001E8FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6416ECC2CACA770001E8FC1 /* Assets.xcassets */; };
+		F6416ED02CACA770001E8FC1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6416ECF2CACA770001E8FC1 /* Base */; };
+		F6416EDB2CACA771001E8FC1 /* ArtBookProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EDA2CACA771001E8FC1 /* ArtBookProjectTests.swift */; };
+		F6416EE52CACA771001E8FC1 /* ArtBookProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EE42CACA771001E8FC1 /* ArtBookProjectUITests.swift */; };
+		F6416EE72CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EE62CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6416ED72CACA771001E8FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6416EB52CACA76E001E8FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6416EBC2CACA76E001E8FC1;
+			remoteInfo = ArtBookProject;
+		};
+		F6416EE12CACA771001E8FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6416EB52CACA76E001E8FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6416EBC2CACA76E001E8FC1;
+			remoteInfo = ArtBookProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6416EBD2CACA76E001E8FC1 /* ArtBookProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtBookProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6416EC42CACA76E001E8FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6416EC72CACA76E001E8FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6416ECA2CACA76E001E8FC1 /* ArtBookProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtBookProject.xcdatamodel; sourceTree = "<group>"; };
+		F6416ECC2CACA770001E8FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6416ECF2CACA770001E8FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6416ED12CACA770001E8FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6416ED62CACA771001E8FC1 /* ArtBookProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6416EDA2CACA771001E8FC1 /* ArtBookProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectTests.swift; sourceTree = "<group>"; };
+		F6416EE02CACA771001E8FC1 /* ArtBookProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6416EE42CACA771001E8FC1 /* ArtBookProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectUITests.swift; sourceTree = "<group>"; };
+		F6416EE62CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6416EBA2CACA76E001E8FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416ED32CACA771001E8FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416EDD2CACA771001E8FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6416EB42CACA76E001E8FC1 = {
+			isa = PBXGroup;
+			children = (
+				F6416EBF2CACA76E001E8FC1 /* ArtBookProject */,
+				F6416ED92CACA771001E8FC1 /* ArtBookProjectTests */,
+				F6416EE32CACA771001E8FC1 /* ArtBookProjectUITests */,
+				F6416EBE2CACA76E001E8FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6416EBE2CACA76E001E8FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6416EBD2CACA76E001E8FC1 /* ArtBookProject.app */,
+				F6416ED62CACA771001E8FC1 /* ArtBookProjectTests.xctest */,
+				F6416EE02CACA771001E8FC1 /* ArtBookProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6416EBF2CACA76E001E8FC1 /* ArtBookProject */ = {
+			isa = PBXGroup;
+			children = (
+				F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */,
+				F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */,
+				F6416EC42CACA76E001E8FC1 /* ViewController.swift */,
+				F6416EC62CACA76E001E8FC1 /* Main.storyboard */,
+				F6416ECC2CACA770001E8FC1 /* Assets.xcassets */,
+				F6416ECE2CACA770001E8FC1 /* LaunchScreen.storyboard */,
+				F6416ED12CACA770001E8FC1 /* Info.plist */,
+				F6416EC92CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld */,
+			);
+			path = ArtBookProject;
+			sourceTree = "<group>";
+		};
+		F6416ED92CACA771001E8FC1 /* ArtBookProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6416EDA2CACA771001E8FC1 /* ArtBookProjectTests.swift */,
+			);
+			path = ArtBookProjectTests;
+			sourceTree = "<group>";
+		};
+		F6416EE32CACA771001E8FC1 /* ArtBookProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6416EE42CACA771001E8FC1 /* ArtBookProjectUITests.swift */,
+				F6416EE62CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift */,
+			);
+			path = ArtBookProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6416EBC2CACA76E001E8FC1 /* ArtBookProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6416EEA2CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProject" */;
+			buildPhases = (
+				F6416EB92CACA76E001E8FC1 /* Sources */,
+				F6416EBA2CACA76E001E8FC1 /* Frameworks */,
+				F6416EBB2CACA76E001E8FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtBookProject;
+			productName = ArtBookProject;
+			productReference = F6416EBD2CACA76E001E8FC1 /* ArtBookProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6416ED52CACA771001E8FC1 /* ArtBookProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6416EED2CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProjectTests" */;
+			buildPhases = (
+				F6416ED22CACA771001E8FC1 /* Sources */,
+				F6416ED32CACA771001E8FC1 /* Frameworks */,
+				F6416ED42CACA771001E8FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6416ED82CACA771001E8FC1 /* PBXTargetDependency */,
+			);
+			name = ArtBookProjectTests;
+			productName = ArtBookProjectTests;
+			productReference = F6416ED62CACA771001E8FC1 /* ArtBookProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6416EDF2CACA771001E8FC1 /* ArtBookProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6416EF02CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProjectUITests" */;
+			buildPhases = (
+				F6416EDC2CACA771001E8FC1 /* Sources */,
+				F6416EDD2CACA771001E8FC1 /* Frameworks */,
+				F6416EDE2CACA771001E8FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6416EE22CACA771001E8FC1 /* PBXTargetDependency */,
+			);
+			name = ArtBookProjectUITests;
+			productName = ArtBookProjectUITests;
+			productReference = F6416EE02CACA771001E8FC1 /* ArtBookProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6416EB52CACA76E001E8FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6416EBC2CACA76E001E8FC1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F6416ED52CACA771001E8FC1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F6416EBC2CACA76E001E8FC1;
+					};
+					F6416EDF2CACA771001E8FC1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F6416EBC2CACA76E001E8FC1;
+					};
+				};
+			};
+			buildConfigurationList = F6416EB82CACA76E001E8FC1 /* Build configuration list for PBXProject "ArtBookProject" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6416EB42CACA76E001E8FC1;
+			productRefGroup = F6416EBE2CACA76E001E8FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6416EBC2CACA76E001E8FC1 /* ArtBookProject */,
+				F6416ED52CACA771001E8FC1 /* ArtBookProjectTests */,
+				F6416EDF2CACA771001E8FC1 /* ArtBookProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6416EBB2CACA76E001E8FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6416ECD2CACA770001E8FC1 /* Assets.xcassets in Resources */,
+				F6416ED02CACA770001E8FC1 /* Base in Resources */,
+				F6416EC82CACA76E001E8FC1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416ED42CACA771001E8FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416EDE2CACA771001E8FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6416EB92CACA76E001E8FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6416ECB2CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld in Sources */,
+				F6416EC52CACA76E001E8FC1 /* ViewController.swift in Sources */,
+				F6416EC12CACA76E001E8FC1 /* AppDelegate.swift in Sources */,
+				F6416EC32CACA76E001E8FC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416ED22CACA771001E8FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6416EDB2CACA771001E8FC1 /* ArtBookProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6416EDC2CACA771001E8FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6416EE52CACA771001E8FC1 /* ArtBookProjectUITests.swift in Sources */,
+				F6416EE72CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6416ED82CACA771001E8FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6416EBC2CACA76E001E8FC1 /* ArtBookProject */;
+			targetProxy = F6416ED72CACA771001E8FC1 /* PBXContainerItemProxy */;
+		};
+		F6416EE22CACA771001E8FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6416EBC2CACA76E001E8FC1 /* ArtBookProject */;
+			targetProxy = F6416EE12CACA771001E8FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6416EC62CACA76E001E8FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6416EC72CACA76E001E8FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6416ECE2CACA770001E8FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6416ECF2CACA770001E8FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6416EE82CACA771001E8FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6416EE92CACA771001E8FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6416EEB2CACA771001E8FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtBookProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6416EEC2CACA771001E8FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtBookProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6416EEE2CACA771001E8FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtBookProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtBookProject";
+			};
+			name = Debug;
+		};
+		F6416EEF2CACA771001E8FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtBookProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtBookProject";
+			};
+			name = Release;
+		};
+		F6416EF12CACA771001E8FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtBookProject;
+			};
+			name = Debug;
+		};
+		F6416EF22CACA771001E8FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DKBT24WX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habildemirci.ArtBookProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtBookProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6416EB82CACA76E001E8FC1 /* Build configuration list for PBXProject "ArtBookProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6416EE82CACA771001E8FC1 /* Debug */,
+				F6416EE92CACA771001E8FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6416EEA2CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6416EEB2CACA771001E8FC1 /* Debug */,
+				F6416EEC2CACA771001E8FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6416EED2CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6416EEE2CACA771001E8FC1 /* Debug */,
+				F6416EEF2CACA771001E8FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6416EF02CACA771001E8FC1 /* Build configuration list for PBXNativeTarget "ArtBookProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6416EF12CACA771001E8FC1 /* Debug */,
+				F6416EF22CACA771001E8FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6416EC92CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6416ECA2CACA76E001E8FC1 /* ArtBookProject.xcdatamodel */,
+			);
+			currentVersion = F6416ECA2CACA76E001E8FC1 /* ArtBookProject.xcdatamodel */;
+			path = ArtBookProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6416EB52CACA76E001E8FC1 /* Project object */;
+}
