@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62E742E2CAF4360003A0340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62E742D2CAF4360003A0340 /* Assets.xcassets */; };
 		F6416EC12CACA76E001E8FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */; };
 		F6416EC32CACA76E001E8FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */; };
 		F6416EC52CACA76E001E8FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC42CACA76E001E8FC1 /* ViewController.swift */; };
 		F6416EC82CACA76E001E8FC1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6416EC72CACA76E001E8FC1 /* Base */; };
 		F6416ECB2CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6416EC92CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld */; };
-		F6416ECD2CACA770001E8FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6416ECC2CACA770001E8FC1 /* Assets.xcassets */; };
 		F6416ED02CACA770001E8FC1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6416ECF2CACA770001E8FC1 /* Base */; };
 		F6416EDB2CACA771001E8FC1 /* ArtBookProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EDA2CACA771001E8FC1 /* ArtBookProjectTests.swift */; };
 		F6416EE52CACA771001E8FC1 /* ArtBookProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EE42CACA771001E8FC1 /* ArtBookProjectUITests.swift */; };
 		F6416EE72CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EE62CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift */; };
+		F6416EF42CACA9EC001E8FC1 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6416EF32CACA9EC001E8FC1 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F62E742D2CAF4360003A0340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6416EBD2CACA76E001E8FC1 /* ArtBookProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtBookProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6416EC42CACA76E001E8FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6416EC72CACA76E001E8FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6416ECA2CACA76E001E8FC1 /* ArtBookProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtBookProject.xcdatamodel; sourceTree = "<group>"; };
-		F6416ECC2CACA770001E8FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6416ECF2CACA770001E8FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6416ED12CACA770001E8FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6416ED62CACA771001E8FC1 /* ArtBookProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,7 @@
 		F6416EE02CACA771001E8FC1 /* ArtBookProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6416EE42CACA771001E8FC1 /* ArtBookProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectUITests.swift; sourceTree = "<group>"; };
 		F6416EE62CACA771001E8FC1 /* ArtBookProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6416EF32CACA9EC001E8FC1 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,9 @@
 				F6416EC02CACA76E001E8FC1 /* AppDelegate.swift */,
 				F6416EC22CACA76E001E8FC1 /* SceneDelegate.swift */,
 				F6416EC42CACA76E001E8FC1 /* ViewController.swift */,
+				F6416EF32CACA9EC001E8FC1 /* DetailsVC.swift */,
 				F6416EC62CACA76E001E8FC1 /* Main.storyboard */,
-				F6416ECC2CACA770001E8FC1 /* Assets.xcassets */,
+				F62E742D2CAF4360003A0340 /* Assets.xcassets */,
 				F6416ECE2CACA770001E8FC1 /* LaunchScreen.storyboard */,
 				F6416ED12CACA770001E8FC1 /* Info.plist */,
 				F6416EC92CACA76E001E8FC1 /* ArtBookProject.xcdatamodeld */,
@@ -234,8 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6416ECD2CACA770001E8FC1 /* Assets.xcassets in Resources */,
 				F6416ED02CACA770001E8FC1 /* Base in Resources */,
+				F62E742E2CAF4360003A0340 /* Assets.xcassets in Resources */,
 				F6416EC82CACA76E001E8FC1 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +268,7 @@
 				F6416EC52CACA76E001E8FC1 /* ViewController.swift in Sources */,
 				F6416EC12CACA76E001E8FC1 /* AppDelegate.swift in Sources */,
 				F6416EC32CACA76E001E8FC1 /* SceneDelegate.swift in Sources */,
+				F6416EF42CACA9EC001E8FC1 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
